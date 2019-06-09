@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Крестики - нолики</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	<script src="script1.js"></script>
+</head>
+<body bgcolor="#FFE4E1">
+  <h3 align='center'><font face="segoe script">Крестики - нолики</font></h3>
+  <table align='center' id='tab'>
+  	<tr><td id = '1' onclick = 'myStep(this)'></td><td id = '2' onclick = 'myStep(this)'></td><td id = '3' onclick = 'myStep(this)'></td></tr>
+  	<tr><td id = '4' onclick = 'myStep(this)'></td><td id = '5' onclick = 'myStep(this)'></td><td id = '6' onclick = 'myStep(this)'></td></tr>
+  	<tr><td id = '7' onclick = 'myStep(this)'></td><td id = '8' onclick = 'myStep(this)'></td><td id = '9' onclick = 'myStep(this)'></td></tr>
+  	<div style='float: left'><font face="segoe script">Игрок:<h3 id='gamer'> </h3></div> <div style='float: right'>Компьютер:<h3 id ='computer'></h3></font></div>
+  </table>
+  <h3 align='center' onclick = 'newGame()' id = 'newGames'><font face="segoe script">Новая игра</font></h3>
+  <h3 align='center' onclick = 'newPart()' id = 'newParts'><font face="segoe script">Новая партия</font></h3>
+  <h3 align = 'center' onclick = 'change()' id = 'changeSide'><font face="segoe script">Смена сторон</font></h3>
+  <h3 align='center'><font face="segoe script">Статистика игр</font></h3>
+  <font face="segoe script"><p id = 't'>Партия №1</p></font>
+</body>
+</html>

@@ -1,0 +1,19 @@
+td {
+	border: 1px solid grey;
+    width: 200px;
+    height: 200px;
+   }
+table td:hover {
+    background: #808080; /* Цвет фона при наведении */
+   }
+
+#newGames:hover {
+    background: #808080; /* Цвет фона при наведении */
+}
+#newParts:hover {
+    background: #808080; /* Цвет фона при наведении */
+}
+#changeSide:hover {
+    background: #808080; /* Цвет фона при наведении */
+}
+
